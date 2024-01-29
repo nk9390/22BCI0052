@@ -59,9 +59,9 @@ body {
 
 /* Main Hero Section Styles */
 .hero { 
-	background-image: url('intro-bg.jpg'); 
+	background-image: url(bcgr1.avif.jpg); 
 	background-repeat: no-repeat; 
-	background-size: 100% 100%; 
+	background-size: cover; 
 	width: 100%; 
 	height: 100vh; 
 	display: flex; 
@@ -158,7 +158,17 @@ body {
 	background-image: linear-gradient(#040404, #983452, #050505); 
 	padding: 1rem; 
 } 
-
+.services-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div:hover{
+    background-color: #ff004f;
+    transform: translateY(-10px);
+}
 .icon { 
 	height: 100px; 
 	width: 100px; 
@@ -336,7 +346,7 @@ body {
 	color: #363D73; 
 }
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(bcgr1.avif.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
